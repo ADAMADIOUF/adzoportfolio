@@ -1,13 +1,23 @@
-import React from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import React, { useEffect } from 'react'
 import { AiFillGithub, AiFillLinkedin, AiFillFacebook } from 'react-icons/ai'
 import { BsBookHalf } from 'react-icons/bs'
 
 const ContactPage = () => {
+  useEffect(() => {
+    AOS.init({
+      offset: 200,
+      duration: 1000,
+      delay: 50,
+      easing: 'ease-in-out',
+    })
+  }, [])
   return (
     <div className='contact' id='contact'>
       <div className='title title-contact'>
-        <h3>contact</h3>
-        <div className='underline'></div>
+        <h3 data-aos='fade-up'>contact</h3>
+        <div className='underline' data-aos='fade-right'></div>
       </div>
       <form action='' className='form section-center'>
         <div>

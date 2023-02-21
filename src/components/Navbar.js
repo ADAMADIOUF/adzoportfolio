@@ -54,7 +54,7 @@ const Navbar = () => {
                   <Link
                     to={link.text}
                     smooth={true}
-                    offset={-450}
+                    offset={-200}
                     duration={500}
                   >
                     {link.text}

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Henny+Penny&family=Lato:wght@100;300;400&family=League+Spartan:wght@200;300;400;500&family=Montserrat:wght@100;200;300;400&family=Poppins:wght@100;200;300&family=Roboto+Mono:wght@100;200;300&family=Titillium+Web:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Babylonica&family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,700&family=Calligraffitti&family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Henny+Penny&family=Lato:wght@100;300;400&family=League+Spartan:wght@200;300;400;500&family=Libre+Baskerville:wght@400;700&family=Montserrat:wght@100;200;300;400&family=Nunito:wght@200;400&family=Poppins:wght@100;200;300&display=swap');
 
 :root {
  
@@ -14,12 +14,24 @@
   --clr-white: #fff;
   
   --clr-black: #222;
-   --fnt-primary-1:'Calligraffitti', cursive;
-    --fnt-primary-2: 'Henny Penny', cursive;--fnt-primary-3:'Lato', sans-serif; --fnt-primary-4:'Poppins', sans-serif; 
-    --fnt-primary-5:'Roboto Mono', monospace;
-    --fnt-primary-6:'League Spartan', sans-serif;
-     --fnt-primary-7:'Montserrat', sans-serif;
-
+    --primary-font1: 'Lato', sans-serif;
+  --primary-font2: 'Merriweather', serif;
+  --primary-font3: 'Montserrat' sans-serif;
+  --primary-font4: 'Oswald', sans-serif;
+  --primary-font5: 'Playfair Display', serif;
+  --primary-font6: 'Raleway', sans-serif;
+  --primary-font7: 'Rubik Microbe', cursive;
+  --primary-font8: 'Rubik Moonrocks', cursive;
+  --primary-font9: 'Anton', sans-serif;
+  --primary-font10: 'Babylonica', cursive;
+  --primary-font11: 'Bodoni Moda', serif;
+  --primary-font12:  'Calligraffitti', cursive;
+  --primary-font13: 'EB Garamond', serif;
+  --primary-font14:'Henny Penny', cursive;
+  --primary-font15:'League Spartan', sans-serif;
+  --primary-font16:'Libre Baskerville', serif;
+  --primary-font17:'Nunito', sans-serif;
+  --primary-font18:'Poppins', sans-serif;
   --transition: all 0.3s linear;
   --spacing: 0.1rem;
   --radius: 0.25rem;
@@ -43,7 +55,7 @@ Global Styles
 }
 body {
   background: var(--clr-white);
-  font-family:var(--fnt-primary-8);
+  font-family:var(--primary-font13);
   color: var(--clr-black);
   line-height: 1.5;
   font-size: 0.875rem;
@@ -265,7 +277,7 @@ justify-self: end;
 
 /* hero */
 .hero{
-  background: url("./assets/hero.png");
+  background: url("./assets/hero1.png");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -275,26 +287,33 @@ justify-self: end;
 
 .hero-content p{
 text-transform: capitalize;
-font-size: 1rem;
-letter-spacing: var(--spacing);
-color: var(--clr-white);
 font-size: 1.5rem;
+color: var(--clr-white);
   }
+  .hero-content p span{
+    text-transform: uppercase;
+    color: var(--clr-primary-8);
+  }
+  .hero-content {
+position: absolute;
+top: 8rem;
+left: 0rem;
+}
 @media (min-width:768px) {
   .hero-content{
     max-width: 40rem;
-    margin-top: 25rem;
-    margin-left: 15rem;
+   
   }
-  .hero-content p{
-    margin-top: 3rem;
-    font-size: 1.5rem;
-  }
-}
-.hero-content {
+  .hero-content {
 position: absolute;
-margin-top: 5rem;
+top: 15rem;
+left: 10rem;
 }
+.hero-content p{
+  font-size: 2rem;
+}
+}
+
 .home-content h3{
   color: var(--clr-primary-4);
   font-size: 3rem;
@@ -357,14 +376,14 @@ margin-top: 5rem;
 }
 /* about */
 .about{
-  height: 100vh;
+ margin-top: 5rem;
 }
 .about-img{
   position: relative;
 }
 .about-img img{
   width: 100%;
-  height: 300px;
+  height: 400px;
   object-fit: cover;
   box-shadow: var(--light-shadow);
   border-radius: var(--radius);
@@ -404,10 +423,8 @@ color: var(--clr-white);
 
 }
 /* skills */
+
 .skills-container{
-  margin-top: 5rem;
-}
-.skill-content{
   margin-top: 5rem;
 }
 .skill-content h3{
