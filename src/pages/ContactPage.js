@@ -3,6 +3,7 @@ import 'aos/dist/aos.css'
 import React, { useEffect } from 'react'
 import { AiFillGithub, AiFillLinkedin, AiFillFacebook } from 'react-icons/ai'
 import { BsBookHalf } from 'react-icons/bs'
+import c from "../assets/contact5.png"
 
 const ContactPage = () => {
   useEffect(() => {
@@ -18,6 +19,18 @@ const ContactPage = () => {
       <div className='title title-contact'>
         <h3 data-aos='fade-up'>contact</h3>
         <div className='underline' data-aos='fade-right'></div>
+      </div>
+      <div className='contact-f-container'>
+        <article>
+          <p>
+            I'm interested in freelance opportunities-especially ambitious or
+            large projects.However,if you have other request or question,don't
+            hesitate to contact me😍
+          </p>
+        </article>
+        <article>
+          <img src={c} alt="" />
+        </article>
       </div>
       <form action='' className='form section-center'>
         <div>

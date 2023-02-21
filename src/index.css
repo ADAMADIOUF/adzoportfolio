@@ -4,10 +4,10 @@
  
   --clr-primary-1: #f5f3e7;
   --clr-primary-2: #343a40;
-  --clr-primary-3: #545454;;
-  --clr-primary-4: #dee2e6;;
-  --clr-primary-8: #ffdb15;;
-  --clr-primary-9:  #020301;;
+  --clr-primary-3: #545454;
+  --clr-primary-4: #dee2e6;
+  --clr-primary-8: #ffdb15;
+  --clr-primary-9:  #020301;
   --clr-primary-11:#f5f3e7 ;
     --clr-primary-12: #3d2616;
   
@@ -489,6 +489,24 @@ color: var(--clr-white);
 }
 .title-contact h3{
   color: var(--clr-white);
+}
+.contact-f-container{
+  text-align: center;
+  margin: 2rem auto;
+}
+.contact-f-container p{
+font-size: 2rem;
+max-width: 40rem;
+}
+.contact-f-container img{
+  width: 200px;
+}
+@media (min-width:992px) {
+  .contact-f-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5rem;
+  }
 }
 .form{
   background: var(--clr-white);
