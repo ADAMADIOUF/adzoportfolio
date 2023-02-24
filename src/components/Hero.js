@@ -1,6 +1,7 @@
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import React,{useEffect} from 'react'
+import { Link } from 'react-scroll'
 const Hero = () => {
   useEffect(() => {
     AOS.init({
@@ -22,9 +23,7 @@ const Hero = () => {
             developer. I was born in Senegal, West Africa.currently,i am based
             in Unites States,Minot north dakota.
           </p>
-          <button className='btn btn-hero' data-aos='fade-up'>
-            projects
-          </button>
+        
         </article>
       </div>
     </div>

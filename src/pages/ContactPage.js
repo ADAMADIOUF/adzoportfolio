@@ -29,7 +29,7 @@ const ContactPage = () => {
           </p>
         </article>
         <article>
-          <img src={c} alt="" />
+          <img src={c} alt='' />
         </article>
       </div>
       <form action='' className='form section-center'>
@@ -53,6 +53,7 @@ const ContactPage = () => {
           <h3>message</h3>
           <textarea
             name=''
+            placeholder='enter your message'
             id=''
             cols='30'
             rows='10'
@@ -63,24 +64,32 @@ const ContactPage = () => {
       </form>
       <div className='contact-lins'>
         <div>
-          <span>
-            <AiFillGithub />
-          </span>
+          <a href='https://github.com/'>
+            <span>
+              <AiFillGithub />
+            </span>
+          </a>
         </div>
         <div>
-          <span>
-            <AiFillLinkedin />
-          </span>
+          <a href='https://www.linkedin.com/feed/'>
+            <span>
+              <AiFillLinkedin />
+            </span>
+          </a>
         </div>
         <div>
-          <span>
-            <BsBookHalf />
-          </span>
+          <a href='https://dev.to/adamadiouf'>
+            <span>
+              <BsBookHalf />
+            </span>
+          </a>
         </div>
         <div>
-          <span>
-            <AiFillFacebook />
-          </span>
+          <a href='https://www.facebook.com/home.php'>
+            <span>
+              <AiFillFacebook />
+            </span>
+          </a>
         </div>
       </div>
     </div>

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Babylonica&family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,700&family=Calligraffitti&family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Henny+Penny&family=Lato:wght@100;300;400&family=League+Spartan:wght@200;300;400;500&family=Libre+Baskerville:wght@400;700&family=Montserrat:wght@100;200;300;400&family=Nunito:wght@200;400&family=Poppins:wght@100;200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Babylonica&family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,700&family=Calligraffitti&family=Cinzel&family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Fauna+One&family=Henny+Penny&family=Lato:wght@100;300;400&family=League+Spartan:wght@200;300;400;500&family=Libre+Baskerville:wght@400;700&family=Montserrat:wght@100;200;300;400&family=Nunito:wght@200;400&family=Poppins:wght@100;200;300&display=swap');
 
 :root {
  
@@ -32,6 +32,8 @@
   --primary-font16:'Libre Baskerville', serif;
   --primary-font17:'Nunito', sans-serif;
   --primary-font18:'Poppins', sans-serif;
+  --primary-font19: 'Cinzel', serif;
+  --primary-font20: 'Fauna One', serif;
   --transition: all 0.3s linear;
   --spacing: 0.1rem;
   --radius: 0.25rem;
@@ -55,7 +57,7 @@ Global Styles
 }
 body {
   background: var(--clr-white);
-  font-family:var(--primary-font13);
+  font-family:var(--primary-font20);
   color: var(--clr-black);
   line-height: 1.5;
   font-size: 0.875rem;
@@ -306,7 +308,7 @@ left: 0rem;
   }
   .hero-content {
 position: absolute;
-top: 15rem;
+top: 20rem;
 left: 10rem;
 }
 .hero-content p{
@@ -367,13 +369,7 @@ left: 10rem;
   border-radius: var(--radius);
   margin:  0 auto;
 }
-.btn-hero{
-  margin-top: 3rem;
-  font-weight: 800;
-}
-.btn-hero:hover{
-  margin-top: 2rem;
-}
+
 /* about */
 .about{
  margin-top: 5rem;
@@ -496,7 +492,12 @@ color: var(--clr-white);
 }
 .contact-f-container p{
 font-size: 2rem;
+font-weight: bolder;
+background: var(--clr-white);
 max-width: 40rem;
+color: var(--clr-black);
+border-radius: var(--radius);
+border:  5px dashed var(--clr-primary-8);
 }
 .contact-f-container img{
   width: 200px;
@@ -520,7 +521,7 @@ max-width: 40rem;
 }
 .contact-lins{
   position: absolute;
-  top: 15rem;
+  top: 25rem;
   left: 0rem;
   background: var(--clr-white);
 }
@@ -536,7 +537,13 @@ max-width: 40rem;
 .contact-lins span:hover{
   background: var(--clr-primary-8);
 }
+.input-form::placeholder{
+  color: grey;
+  text-transform: uppercase;
+  letter-spacing: var(--spacing);
+}
 .footer{
+  margin-top: 5rem;
   background: var(--clr-black);
   color: var(--clr-white);
 
