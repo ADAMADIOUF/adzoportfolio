@@ -1,12 +1,15 @@
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import React, { useEffect } from 'react'
-import project1 from '../assets/project1.png'
-import project2 from '../assets/project2.png'
-import project3 from '../assets/project3.png'
-import project4 from '../assets/project4.png'
-import project5 from '../assets/project5.png'
+import project1 from '../assets/lh.mp4'
+import project2 from '../assets/ps.mp4'
+import project3 from '../assets/wb.mp4'
+import project4 from '../assets/rc.mp4'
+import project5 from '../assets/lf.mp4'
 
+
+import{BsGithub} from "react-icons/bs"
+import { Link } from 'react-router-dom'
 const ProjectPage = () => {
   useEffect(() => {
     AOS.init({
@@ -24,64 +27,110 @@ const ProjectPage = () => {
       </div>
       <div className='project-container'>
         <article data-aos='fade-up'>
-          <img src={project1} alt='' />
+          <video autoPlay loop muted poster='' onCanPlayThrough={() => {}}>
+            <source src={project1} type='video/webm' />
+          </video>
         </article>
         <article data-aos='fade-right'>
-          <h3>fashion website</h3>
+          <h3>landing page hotel</h3>
           <p>
-            Lorem ipsum dolor, sit amet Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit. Esse ipsa deleniti ullam amet nulla atque saepe
-            inventore maxime commodi laudantium.
+            with a focus on simplicity and clean design,this landing page
+            prioritize user experience,making it easy for customers to find and
+            booking their room they need.
           </p>
-          <button className='btn btn-project'>fashion</button>
+          <p>REACT JS /REACT-BOOTSTRAP/ CSS</p>
+          <a href='https://github.com/ADAMADIOUF/hotellandingpage.git'>
+            <span>
+              <BsGithub />
+            </span>
+          </a>
+          <a href={'https://hotellandingpage1.netlify.app/ '}>
+            <button className='btn btn-project'>demo</button>
+          </a>
         </article>
         <article data-aos='fade-up'>
-          <img src={project2} alt='' />
+          <video autoPlay loop muted poster='' onCanPlayThrough={() => {}}>
+            <source src={project2} type='video/webm' />
+          </video>
         </article>
         <article data-aos='fade-right'>
-          <h3>fashion website</h3>
+          <h3>ZANA PARFUMERIE</h3>
           <p>
-            Lorem ipsum dolor, sit amet Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit. Esse ipsa deleniti ullam amet nulla atque saepe
-            inventore maxime commodi laudantium.
+            A perfume website is an online platform that allows users to buy
+            perfume for personal use.
           </p>
-          <button className='btn btn-project'>fashion</button>
+          <p>REACT JS / CSS/CONTEXT API</p>
+          <a href='https://github.com/ADAMADIOUF/zanaparfumerie.git'>
+            <span>
+              <BsGithub />
+            </span>
+          </a>
+          <a href={'https://zanaparfumerietest.netlify.app/ '}>
+            <button className='btn btn-project'>demo</button>
+          </a>
         </article>
         <article data-aos='fade-up'>
-          <img src={project3} alt='' />
+          <video autoPlay loop muted poster='' onCanPlayThrough={() => {}}>
+            <source src={project3} type='video/webm' />
+          </video>
         </article>
         <article data-aos='fade-right'>
-          <h3>fashion website</h3>
+          <h3>phone store</h3>
           <p>
-            Lorem ipsum dolor, sit amet Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit. Esse ipsa deleniti ullam amet nulla atque saepe
-            inventore maxime commodi laudantium.
+            world business is a phone store online platform that allows users to
+            doing their order via whatsapp and order delivery quickly
           </p>
-          <button className='btn btn-project'>fashion</button>
+          <p>REACT JS / CSS/CONTEXT API/AIRTABLE/SERVERLESS NETLIFY</p>
+          <a href='https://github.com/ADAMADIOUF/absaBoutique.git'>
+            <span>
+              <BsGithub />
+            </span>
+          </a>
+          <a href={'https://worldbusinesstest.netlify.app/ '}>
+            <button className='btn btn-project'>demo</button>
+          </a>
+        </article>
+
+        <article data-aos='fade-up'>
+          <video autoPlay loop muted poster='' onCanPlayThrough={() => {}}>
+            <source src={project4} type='video/webm' />
+          </video>
+        </article>
+        <article data-aos='fade-right'>
+          <h3>accessories store</h3>
+          <p>
+            Rems' Clamour a store website is an online platform that allows
+            users to buy perfume,shoes and make up for personal use.
+          </p>
+          <p>REACT JS / CSS/CONTEXT API/AIRTABLE/SERVERLESS NETLIFY</p>
+          <a href='https://github.com/ADAMADIOUF/marieme.git'>
+            <span>
+              <BsGithub />
+            </span>
+          </a>
+          <a href={'https://remsclamour.netlify.app/ '}>
+            <button className='btn btn-project'>demo</button>
+          </a>
         </article>
         <article data-aos='fade-up'>
-          <img src={project4} alt='' />
+          <video autoPlay loop muted poster='' onCanPlayThrough={() => {}}>
+            <source src={project5} type='video/webm' />
+          </video>
         </article>
         <article data-aos='fade-right'>
-          <h3>fashion website</h3>
+          <h3>lamp fall house</h3>
           <p>
-            Lorem ipsum dolor, sit amet Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit. Esse ipsa deleniti ullam amet nulla atque saepe
-            inventore maxime commodi laudantium.
+            Lamp Fall house is a real estate agency for rent sell or by proprierties
           </p>
-          <button className='btn btn-project'>fashion</button>
-        </article>
-        <article data-aos='fade-up'>
-          <img src={project5} alt='' />
-        </article>
-        <article data-aos='fade-right'>
-          <h3>fashion website</h3>
-          <p>
-            Lorem ipsum dolor, sit amet Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit. Esse ipsa deleniti ullam amet nulla atque saepe
-            inventore maxime commodi laudantium.
-          </p>
-          <button className='btn btn-project'>fashion</button>
+          <p>REACT JS / CSS/CONTEXT API/AIRTABLE/SERVERLESS NETLIFY</p>
+          <a href='https://github.com/ADAMADIOUF/lampfall.git'>
+            <span>
+              <BsGithub />
+            </span>
+          </a>
+          <a href={'https://lampfallhouse.netlify.app/ '}>
+            <button className='btn btn-project'>demo</button>
+          </a>
         </article>
       </div>
     </section>

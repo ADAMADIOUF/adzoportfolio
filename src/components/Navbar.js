@@ -8,7 +8,6 @@ import { FaBars } from 'react-icons/fa'
 import Sidebar from './Sidebar'
 const Navbar = () => {
  const [isSidebarOpen, setIsSidebarOpen] = useState(false)
-
  const openSidebar = () => {
    setIsSidebarOpen(true)
  }
