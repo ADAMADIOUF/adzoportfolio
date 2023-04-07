@@ -466,7 +466,7 @@ color: var(--clr-white);
   
 }
 .project-container p{
-  margin-top: 5rem;
+  margin-top: 1rem;
   font-size: 1.5rem;
 }
 .project-container a{
