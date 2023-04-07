@@ -16,14 +16,13 @@ const Hero = () => {
       <div className='hero-content'>
         <article className='home-content'>
           <h3 data-aos='fade-up'>
-            i keep on <span className='home-animate'>growing.</span>
+            I keep <span className='home-animate'> on growing.</span>
           </h3>
           <p data-aos='fade-right'>
-            Hello my name is <span> Adama Diouf </span> ,i am a front end
-            developer. I was born in Senegal, West Africa.currently,i am based
-            in Unites States,Minot north dakota.
+            Hello, my name is <span> Adama Diouf ,</span> I am a front end
+            developer. I was born in Senegal, West Africa. Currently, I am based
+            in the United States, Minot, North Dakota.
           </p>
-        
         </article>
       </div>
     </div>

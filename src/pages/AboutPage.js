@@ -19,17 +19,19 @@ const AboutPage = () => {
       </div>
       <div className='about-me-container'>
         <article className='about-me-content'>
-          <h3 data-aos='fade-up'>Hi,My Name Is Adama Diouf.</h3>
+          <h3 data-aos='fade-up'>Hi, My Name Is Adama Diouf.</h3>
           <p data-aos='fade-right'>
-            I started studying engineering in March 2020.Since then I have been
-            learning a lot of things every day to further my skills.I like to
-            learn and try new things.I am a big fan of learning programing while
-            making productions. I am proud to say that I always work hard and do
-            my best to live up to expectations people have for me.😎
+            I started studying engineering in March 2020. Since then, I have
+            been learning a lot of things every day to further my skills. I like
+            to learn and try new things. I am a big fan of learning to program
+            while making productions. Furthermore, I am proud to say that I
+            always work hard and do my best to live up to the expectations
+            people have for me.😎
           </p>
           <p data-aos='fade-up'>
-            I am a <span> creative developer </span> who has a great passion for
-            learning engineering.😎 currently I'm a freelancer.
+            I am a <span> creative developer </span>
+            who has a great passion for learning engineering.😎 currently, I'm a
+            freelancer. 
           </p>
         </article>
         <article className='about-img' data-aos='fade-up'>

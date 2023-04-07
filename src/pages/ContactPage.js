@@ -23,9 +23,9 @@ const ContactPage = () => {
       <div className='contact-f-container'>
         <article>
           <p>
-            I'm interested in freelance opportunities-especially ambitious or
-            large projects.However,if you have other request or question,don't
-            hesitate to contact me😍
+            "I'm interested in freelance opportunities, especially ambitious or
+            large projects. However, if you have any other requests or
+            questions, please don't hesitate to contact me. 😍"
           </p>
         </article>
         <article>

@@ -290,12 +290,11 @@ justify-self: end;
 }
 
 .hero-content p{
-text-transform: capitalize;
 font-size: 1.5rem;
 color: var(--clr-white);
   }
   .hero-content p span{
-    text-transform: uppercase;
+    
     color: var(--clr-primary-8);
   }
   .hero-content {
@@ -321,7 +320,6 @@ left: 10rem;
 .home-content h3{
   color: var(--clr-primary-4);
   font-size: 3rem;
-  text-transform: uppercase;
   font-weight: 800;
   
 }

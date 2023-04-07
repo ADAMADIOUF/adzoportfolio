@@ -36,11 +36,13 @@ const SkillsPage = () => {
       <div className='skills-container'>
         <article className='skill-content'>
           <h3 data-aos='fade-up'>
-            I Am On My Way To Be One Of The Best Developers
+            I strive to become one of the best developers, and I'm currently
+            making solid progress towards achieving that goal.
           </h3>
           <p data-aos='fade-right'>
-            Now I am making solid progress to be a good developer.I am always
-            looking for new challenges.I keep on growing.
+            I constantly seek out new challenges to help me grow and improve.
+            Ultimately, my aim is to become a skilled and innovative developer,
+            collaborating with clients from all over the world.
           </p>
           <h3 data-aos='fade-up'>What Is My Goal</h3>
           <p data-aos='fade-right'>

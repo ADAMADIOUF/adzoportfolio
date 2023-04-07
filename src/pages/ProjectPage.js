@@ -34,9 +34,9 @@ const ProjectPage = () => {
         <article data-aos='fade-right'>
           <h3>landing page hotel</h3>
           <p>
-            with a focus on simplicity and clean design,this landing page
-            prioritize user experience,making it easy for customers to find and
-            booking their room they need.
+            With a focus on simplicity and clean design, this landing page
+            prioritizes user experience, making it easy for customers to find
+            and book the room they need.
           </p>
           <p>REACT JS /REACT-BOOTSTRAP/ CSS</p>
           <a href='https://github.com/ADAMADIOUF/hotellandingpage.git'>
@@ -77,8 +77,9 @@ const ProjectPage = () => {
         <article data-aos='fade-right'>
           <h3>phone store</h3>
           <p>
-            world business is a phone store online platform that allows users to
-            doing their order via whatsapp and order delivery quickly
+            World Business is an online phone store platform that allows users
+            to place their orders quickly and easily via WhatsApp, with speedy
+            delivery options.
           </p>
           <p>REACT JS / CSS/CONTEXT API/AIRTABLE/SERVERLESS NETLIFY</p>
           <a href='https://github.com/ADAMADIOUF/absaBoutique.git'>
@@ -120,7 +121,8 @@ const ProjectPage = () => {
         <article data-aos='fade-right'>
           <h3>lamp fall house</h3>
           <p>
-            Lamp Fall house is a real estate agency for rent sell or by proprierties
+            Lamp Fall House is a real estate agency that offers properties for
+            rent or sale.
           </p>
           <p>REACT JS / CSS/CONTEXT API/AIRTABLE/SERVERLESS NETLIFY</p>
           <a href='https://github.com/ADAMADIOUF/lampfall.git'>
