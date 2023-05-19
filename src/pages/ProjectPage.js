@@ -65,7 +65,7 @@ const ProjectPage = () => {
               <BsGithub />
             </span>
           </a>
-          <a href={'https://zanaparfumerietest.netlify.app/ '}>
+          <a href={'https://zanaparfumerie.com/ '}>
             <button className='btn btn-project'>demo</button>
           </a>
         </article>
@@ -87,7 +87,7 @@ const ProjectPage = () => {
               <BsGithub />
             </span>
           </a>
-          <a href={'https://worldbusinesstest.netlify.app/ '}>
+          <a href={'https://worldbusinesssenegal.com/ '}>
             <button className='btn btn-project'>demo</button>
           </a>
         </article>
