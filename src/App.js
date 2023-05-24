@@ -6,14 +6,15 @@ import ContactPage from './pages/ContactPage'
 import HomePages from './pages/HomePages'
 import ProjectPage from './pages/ProjectPage'
 import SkillsPage from './pages/SkillsPage'
-import AnimCursor from './components/AnimCursor'
+
+import CustomCursor from './components/CustomCursor'
 
 
 const App = () => {
   return (
     <div>
       <Navbar />
-      <AnimCursor />
+     <CustomCursor/>
       <HomePages />
       <AboutPage />
       <SkillsPage />

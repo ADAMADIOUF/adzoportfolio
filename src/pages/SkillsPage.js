@@ -52,20 +52,35 @@ const SkillsPage = () => {
         </article>
         <article className='skills-details'>
           <div className='skills-details-container'>
+            <span></span>
             <img src={html} alt='' />
+            <span>Html5</span>
             <img src={css} alt='' />
+            <span>Css</span>
             <img src={boostrap} alt='' />
+            <span>Boostrap</span>
             <img src={jquery} alt='' />
+            <span>Jquery</span>
             <img src={javascript} alt='' />
+            <span>Javascript</span>
             <img src={world} alt='' />
+            <span>Wordpress</span>
             <img src={react} alt='' />
+            <span>React js</span>
             <img src={next} alt='' />
+            <span>Next js</span>
             <img src={redux} alt='' />
+            <span>Redux</span>
             <img src={tailwind} alt='' />
+            <span>Tailwind css</span>
             <img src={starapi} alt='' />
+            <span>Strapi</span>
             <img src={airtable} alt='' />
+            <span>Airtable</span>
             <img src={netlify} alt='' />
+            <span>Netlify Serverless</span>
             <img src={canva} alt='' />
+            <span>Canva</span>
           </div>
         </article>
       </div>

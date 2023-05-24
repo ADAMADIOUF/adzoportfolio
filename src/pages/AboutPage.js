@@ -1,7 +1,7 @@
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import React, { useEffect } from 'react'
-import about from '../assets/about1.png'
+import about from '../assets/about3.png'
 const AboutPage = () => {
   useEffect(() => {
     AOS.init({
@@ -19,7 +19,32 @@ const AboutPage = () => {
       </div>
       <div className='about-me-container'>
         <article className='about-me-content'>
-          <h3 data-aos='fade-up'>Hi, My Name Is Adama Diouf.</h3>
+         
+          <p>
+            Hi, I'm <span className='highlight'>Adama Diouf</span>, a passionate
+            front-end developer with <span className='highlight'>2</span> years
+            of experience. I specialize in building user-friendly and responsive
+            web applications using modern web technologies.
+          </p>
+          <p>
+            My journey as a developer began when I discovered my fascination for
+            crafting interactive and visually appealing websites. Since then, I
+            have been dedicated to honing my skills and staying up to date with
+            the latest industry trends and best practices.
+          </p>
+          <p>
+            As a front-end developer, I enjoy transforming ideas into reality
+            through clean and efficient code. I have hands-on experience with
+            HTML, CSS, JavaScript, and frameworks like React. I'm
+            also proficient in utilizing libraries, version control systems, and
+            task runners to streamline the development process.
+          </p>
+          <p>
+            Collaborating with cross-functional teams, I have effectively
+            contributed to the successful delivery of numerous projects. I am
+            constantly seeking new challenges that allow me to expand my skills
+            and create exceptional user experiences.
+          </p>
           <p data-aos='fade-right'>
             I started studying engineering in March 2020. Since then, I have
             been learning a lot of things every day to further my skills. I like
@@ -31,7 +56,7 @@ const AboutPage = () => {
           <p data-aos='fade-up'>
             I am a <span> creative developer </span>
             who has a great passion for learning engineering.😎 currently, I'm a
-            freelancer. 
+            freelancer.
           </p>
         </article>
         <article className='about-img' data-aos='fade-up'>
