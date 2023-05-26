@@ -6,6 +6,8 @@ import project2 from '../assets/ps.mp4'
 import project3 from '../assets/wb.mp4'
 import project4 from '../assets/aw.mp4'
 import project5 from '../assets/dieuf.mp4'
+import project7 from '../assets/project7.mp4'
+
 
 
 import{BsGithub} from "react-icons/bs"
@@ -26,6 +28,42 @@ const ProjectPage = () => {
         <div className='underline' data-aos='fade-right'></div>
       </div>
       <div className='project-container'>
+        <article data-aos='fade-up'>
+          <video autoPlay loop muted poster='' onCanPlayThrough={() => {}}>
+            <source src={project7} type='video/webm' />
+          </video>
+        </article>
+        <article data-aos='fade-right'>
+          <h3>gym/fitness exercise</h3>
+          <p>
+            Designed to empower fitness enthusiasts, our gym/fitness exercise
+            website built with React.js, CSS, and utilizing the Context API
+            offers a comprehensive platform for individuals seeking to achieve
+            their fitness goals. With a sleek and modern design, our website
+            provides a user-friendly interface, ensuring seamless navigation and
+            effortless access to a wide range of exercise resources. Discover a
+            wealth of fitness exercises, tailored workout routines, and expert
+            guidance to support your fitness journey. Leveraging the power of
+            APIs through Rapid API integration, our website offers real-time
+            access to exercise data, allowing users to explore a vast library of
+            exercises, target specific muscle groups, and access detailed
+            equipment requirements. The intuitive layout of our website enables
+            users to effortlessly search for exercises, filter by difficulty
+            level or equipment, and explore detailed instructions and visual
+            demonstrations for each exercise. The Context API provides a
+            seamless data management solution, ensuring efficient and reliable
+            access to exercise information across the website.
+          </p>
+          <p>REACT JS /API via RApid api/ CSS/CONTEXT API</p>
+          <a href='https://github.com/ADAMADIOUF/gym2'>
+            <span>
+              <BsGithub />
+            </span>
+          </a>
+          <a href={'https://planete2.netlify.app/ '}>
+            <button className='btn btn-project'>demo</button>
+          </a>
+        </article>
         <article data-aos='fade-up'>
           <video autoPlay loop muted poster='' onCanPlayThrough={() => {}}>
             <source src={project1} type='video/webm' />
