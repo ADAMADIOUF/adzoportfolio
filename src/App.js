@@ -9,10 +9,11 @@ import SkillsPage from './pages/SkillsPage'
 
 import CustomCursor from './components/CustomCursor'
 
+import { BrowserRouter,Routes,Route } from 'react-router-dom'
 
 const App = () => {
   return (
-    <div>
+    <BrowserRouter>
       <Navbar />
      <CustomCursor/>
       <HomePages />
@@ -20,8 +21,9 @@ const App = () => {
       <SkillsPage />
       <ProjectPage />
       <ContactPage />
+      
       <Footer />
-    </div>
+    </BrowserRouter>
   )
 }
 

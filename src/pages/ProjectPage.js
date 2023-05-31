@@ -1,14 +1,11 @@
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import React, { useEffect } from 'react'
-import project1 from '../assets/lh.mp4'
-import project2 from '../assets/ps.mp4'
-import project3 from '../assets/wb.mp4'
-import project4 from '../assets/aw.mp4'
-import project5 from '../assets/dieuf.mp4'
-import project7 from '../assets/project7.mp4'
-
-
+import zana from "../assets/zana.png"
+import planete from '../assets/planete.png'
+import hotel from '../assets/hotel.png'
+import worldbusiness from '../assets/worldbusiness.png'
+import awagueye from '../assets/awagueye.png'
 
 import{BsGithub} from "react-icons/bs"
 import { Link } from 'react-router-dom'
@@ -29,9 +26,10 @@ const ProjectPage = () => {
       </div>
       <div className='project-container'>
         <article data-aos='fade-up'>
-          <video autoPlay loop muted poster='' onCanPlayThrough={() => {}}>
-            <source src={project7} type='video/webm' />
-          </video>
+          <img src={planete} alt='' />
+          <Link to={`http://planete2.netlify.app`}>
+            <span className='project-link'>planete2.netlify.app</span>
+          </Link>
         </article>
         <article data-aos='fade-right'>
           <h3>gym/fitness exercise</h3>
@@ -55,19 +53,20 @@ const ProjectPage = () => {
             access to exercise information across the website.
           </p>
           <p>REACT JS /API via RApid api/ CSS/CONTEXT API</p>
-          <a href='https://github.com/ADAMADIOUF/gym2'>
+          <Link to='https://github.com/ADAMADIOUF/gym2'>
             <span>
               <BsGithub />
             </span>
-          </a>
-          <a href={'https://planete2.netlify.app/ '}>
+          </Link>
+          <Link to={'https://planete2.netlify.app/ '}>
             <button className='btn btn-project'>demo</button>
-          </a>
+          </Link>
         </article>
         <article data-aos='fade-up'>
-          <video autoPlay loop muted poster='' onCanPlayThrough={() => {}}>
-            <source src={project1} type='video/webm' />
-          </video>
+          <img src={hotel} alt='' />
+          <Link to={`http://hotellandingpage1.netlify.app`}>
+            <span className='project-link'>hotellandingpage1.netlify.app</span>
+          </Link>
         </article>
         <article data-aos='fade-right'>
           <h3>landing page hotel</h3>
@@ -98,9 +97,10 @@ const ProjectPage = () => {
           </a>
         </article>
         <article data-aos='fade-up'>
-          <video autoPlay loop muted poster='' onCanPlayThrough={() => {}}>
-            <source src={project2} type='video/webm' />
-          </video>
+          <img src={zana} alt='' />
+          <Link to={`http://zanaparfumerie.com`}>
+            <span className='project-link'>zanaparfumerie.com</span>
+          </Link>
         </article>
         <article data-aos='fade-right'>
           <h3>ZANA PARFUMERIE</h3>
@@ -133,9 +133,10 @@ const ProjectPage = () => {
           </a>
         </article>
         <article data-aos='fade-up'>
-          <video autoPlay loop muted poster='' onCanPlayThrough={() => {}}>
-            <source src={project3} type='video/webm' />
-          </video>
+          <img src={worldbusiness} alt='' />
+          <Link to={`http://worldbusinesssenegal.com`}>
+            <span className='project-link'>worldbusinesssenegal.com</span>
+          </Link>
         </article>
         <article data-aos='fade-right'>
           <h3>phone store</h3>
@@ -168,9 +169,10 @@ const ProjectPage = () => {
         </article>
 
         <article data-aos='fade-up'>
-          <video autoPlay loop muted poster='' onCanPlayThrough={() => {}}>
-            <source src={project4} type='video/webm' />
-          </video>
+          <img src={awagueye} alt='' />
+          <Link to={`http://awagueyecouture.com`}>
+            <span className='project-link'>awagueyecouture.com</span>
+          </Link>
         </article>
         <article data-aos='fade-right'>
           <h3>clothing store</h3>
@@ -200,39 +202,7 @@ const ProjectPage = () => {
             <button className='btn btn-project'>demo</button>
           </a>
         </article>
-        <article data-aos='fade-up'>
-          <video autoPlay loop muted poster='' onCanPlayThrough={() => {}}>
-            <source src={project5} type='video/webm' />
-          </video>
-        </article>
-        <article data-aos='fade-right'>
-          <h3>Online clothing</h3>
-          <p>
-            Our clothing store is an online platform that offers a diverse range
-            of stylish apparel for fashion enthusiasts. We understand the
-            importance of finding the perfect clothing that reflects your
-            personal style and makes you feel confident. Our online store
-            provides a seamless shopping experience, allowing you to browse
-            through a carefully curated collection of trendy and high-quality
-            clothing items. From casual wear to formal attire, we have something
-            for every occasion and preference. With detailed product
-            descriptions, size guides, and customer reviews, we strive to ensure
-            that you make informed decisions and find the perfect fit. We
-            prioritize customer satisfaction and provide excellent customer
-            service, including hassle-free returns and exchanges. Discover the
-            latest fashion trends, express your individuality, and elevate your
-            wardrobe with our clothing store.
-          </p>
-          <p>REACT JS / CSS/CONTEXT API/AIRTABLE/SERVERLESS NETLIFY</p>
-          <a href='https://github.com/ADAMADIOUF/tailleur1'>
-            <span>
-              <BsGithub />
-            </span>
-          </a>
-          <a href={'https://dieufdieul1.netlify.app/ '}>
-            <button className='btn btn-project'>demo</button>
-          </a>
-        </article>
+        
       </div>
     </section>
   )
