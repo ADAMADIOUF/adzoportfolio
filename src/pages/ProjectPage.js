@@ -3,7 +3,7 @@ import 'aos/dist/aos.css'
 import React, { useEffect } from 'react'
 import zana from "../assets/zana.png"
 import planete from '../assets/planete.png'
-import hotel from '../assets/hotel.png'
+import rems from '../assets/rems.jpg.png'
 import worldbusiness from '../assets/worldbusiness.png'
 import awagueye from '../assets/awagueye.png'
 
@@ -63,36 +63,42 @@ const ProjectPage = () => {
           </Link>
         </article>
         <article data-aos='fade-up'>
-          <img src={hotel} alt='' />
-          <Link to={`http://hotellandingpage1.netlify.app`}>
-            <span className='project-link'>hotellandingpage1.netlify.app</span>
+          <img src={rems} alt='' />
+          <Link to={`https://annaparfum.onrender.com/`}>
+            <span className='project-link'>
+              https://annaparfum.onrender.com/
+            </span>
           </Link>
         </article>
         <article data-aos='fade-right'>
-          <h3>landing page hotel</h3>
+          <h3>Perfume Website</h3>
           <p>
-            With a focus on simplicity and clean design, this landing page
-            prioritizes user experience, making it easy for customers to find
-            and book the room they need. Our intuitive interface allows users to
-            navigate seamlessly through the website, effortlessly browsing
-            different room options, amenities, and availability. The carefully
-            crafted layout and user-friendly features ensure a hassle-free
-            booking experience, where customers can quickly search for their
-            desired dates, view real-time availability, and make secure
-            reservations with confidence. We understand the importance of a
-            streamlined process, and our landing page is designed to provide a
-            seamless and efficient experience for all users, whether they are
-            frequent travelers or first-time visitors. Discover the simplicity
-            and convenience of booking your ideal room with ease on our
-            user-centric landing page."
+            A perfume website is an online platform that allows users to buy
+            perfume for personal use. At our perfume website, we strive to bring
+            you a wide selection of exquisite fragrances that cater to different
+            tastes and preferences. We understand that choosing the perfect
+            scent is a personal and intimate experience, and our platform is
+            designed to provide you with a seamless and convenient shopping
+            journey. Browse through our carefully curated collection of
+            perfumes, ranging from timeless classics to unique and niche
+            creations. Our website offers detailed product descriptions,
+            including notes, accords, and customer reviews, empowering you to
+            make informed decisions. With our secure online platform, you can
+            confidently shop for your favorite fragrances, whether you're
+            seeking a signature scent or exploring new olfactory sensations.
+            Immerse yourself in the world of perfumes and discover the art of
+            scent as you create a personal collection that reflects your unique
+            style and personality.
           </p>
-          <p>REACT JS /REACT-BOOTSTRAP/ CSS/CONTEXT API</p>
-          <a href='https://github.com/ADAMADIOUF/hotellandingpage.git'>
+          <p>
+            REACT JS /REACT-BOOTSTRAP/ CSS/CONTEXT API/MONGO DB/EXPRESS/NODE JS
+          </p>
+          <a href='https://github.com/ADAMADIOUF/anaparfum'>
             <span>
               <BsGithub />
             </span>
           </a>
-          <a href={'https://hotellandingpage1.netlify.app/ '}>
+          <a href={'https://annaparfum.onrender.com/ '}>
             <button className='btn btn-project'>demo</button>
           </a>
         </article>
@@ -202,7 +208,6 @@ const ProjectPage = () => {
             <button className='btn btn-project'>demo</button>
           </a>
         </article>
-        
       </div>
     </section>
   )
