@@ -18,6 +18,9 @@ const ProjectPage = () => {
       easing: 'ease-in-out',
     })
   }, [])
+  const handleClick =(link)=>{
+    window.open(link,`_blank`)
+  }
   return (
     <section className='projects section-center' id='projects'>
       <div className='title'>
@@ -27,7 +30,7 @@ const ProjectPage = () => {
       <div className='project-container'>
         <article data-aos='fade-up'>
           <img src={planete} alt='' />
-          <Link to={`http://planete2.netlify.app`}>
+          <Link onClick={() => handleClick(`https://planete2.netlify.app/`)}>
             <span className='project-link'>planete2.netlify.app</span>
           </Link>
         </article>
@@ -58,13 +61,17 @@ const ProjectPage = () => {
               <BsGithub />
             </span>
           </Link>
-          <Link to={'https://planete2.netlify.app/ '}>
-            <button className='btn btn-project'>demo</button>
-          </Link>
+
+          <button
+            className='btn btn-project'
+            onClick={() => handleClick(`https://planete2.netlify.app/`)}
+          >
+            demo
+          </button>
         </article>
         <article data-aos='fade-up'>
           <img src={rems} alt='' />
-          <Link to={`https://annaparfum.onrender.com/`}>
+          <Link onClick={() => handleClick(`https://annaparfum.onrender.com/`)}>
             <span className='project-link'>
               https://annaparfum.onrender.com/
             </span>
@@ -93,18 +100,22 @@ const ProjectPage = () => {
           <p>
             REACT JS /REACT-BOOTSTRAP/ CSS/CONTEXT API/MONGO DB/EXPRESS/NODE JS
           </p>
-          <a href='https://github.com/ADAMADIOUF/anaparfum'>
+          <Link to='https://github.com/ADAMADIOUF/anaparfum'>
             <span>
               <BsGithub />
             </span>
-          </a>
-          <a href={'https://annaparfum.onrender.com/ '}>
-            <button className='btn btn-project'>demo</button>
-          </a>
+          </Link>
+
+          <button
+            className='btn btn-project'
+            onClick={() => handleClick(`https://annaparfum.onrender.com/`)}
+          >
+            demo
+          </button>
         </article>
         <article data-aos='fade-up'>
           <img src={zana} alt='' />
-          <Link to={`http://zanaparfumerie.com`}>
+          <Link onClick={() => handleClick(`http://zanaparfumerie.com`)}>
             <span className='project-link'>zanaparfumerie.com</span>
           </Link>
         </article>
@@ -129,18 +140,22 @@ const ProjectPage = () => {
             style and personality.
           </p>
           <p>REACT JS / CSS/CONTEXT API/AIRTABLE FOR THE BACK END</p>
-          <a href='https://github.com/ADAMADIOUF/zanaparfumerie.git'>
+          <Link to='https://github.com/ADAMADIOUF/zanaparfumerie.git'>
             <span>
               <BsGithub />
             </span>
-          </a>
-          <a href={'https://zanaparfumerie.com/ '}>
-            <button className='btn btn-project'>demo</button>
-          </a>
+          </Link>
+
+          <button
+            className='btn btn-project'
+            onClick={() => handleClick(`http://zanaparfumerie.com`)}
+          >
+            demo
+          </button>
         </article>
         <article data-aos='fade-up'>
           <img src={worldbusiness} alt='' />
-          <Link to={`http://worldbusinesssenegal.com`}>
+          <Link onClick={() => handleClick(`http://worldbusinesssenegal.com`)}>
             <span className='project-link'>worldbusinesssenegal.com</span>
           </Link>
         </article>
@@ -164,19 +179,23 @@ const ProjectPage = () => {
             accessibility right at your fingertips.
           </p>
           <p>REACT JS / CSS/REDUX /AIRTABLE/SERVERLESS NETLIFY</p>
-          <a href='https://github.com/ADAMADIOUF/phonestore'>
+          <Link to='https://github.com/ADAMADIOUF/phonestore'>
             <span>
               <BsGithub />
             </span>
-          </a>
-          <a href={'https://worldbusinesssenegal.com/ '}>
-            <button className='btn btn-project'>demo</button>
-          </a>
+          </Link>
+
+          <button
+            className='btn btn-project'
+            onClick={() => handleClick(`http://worldbusinesssenegal.com`)}
+          >
+            demo
+          </button>
         </article>
 
         <article data-aos='fade-up'>
           <img src={awagueye} alt='' />
-          <Link to={`http://awagueyecouture.com`}>
+          <Link onClick={() => handleClick(`http://awagueyecouture.com`)}>
             <span className='project-link'>awagueyecouture.com</span>
           </Link>
         </article>
@@ -199,14 +218,18 @@ const ProjectPage = () => {
             wardrobe with our clothing store.
           </p>
           <p>REACT JS / CSS/REDUX/AIRTABLE/SERVERLESS NETLIFY</p>
-          <a href='https://github.com/ADAMADIOUF/cheikhmbaye'>
+          <Link to='https://github.com/ADAMADIOUF/cheikhmbaye'>
             <span>
               <BsGithub />
             </span>
-          </a>
-          <a href={'https://awagueyecouture.com/ '}>
-            <button className='btn btn-project'>demo</button>
-          </a>
+          </Link>
+
+          <button
+            className='btn btn-project'
+            onClick={() => handleClick(`http://awagueyecouture.com`)}
+          >
+            demo
+          </button>
         </article>
       </div>
     </section>
