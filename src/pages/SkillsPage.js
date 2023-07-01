@@ -17,6 +17,14 @@ import tailwind from '../assets/tailwind.png'
 import starapi from '../assets/strapi.png'
 import airtable from '../assets/airtable.png'
 import netlify from '../assets/netlify.png'
+import nodejs from '../assets/nodejs.png'
+import express from '../assets/express.png'
+import mongodb from '../assets/mongodb.png'
+import reduxRtk from '../assets/reduxrtk.png'
+
+
+
+
 import canva from '../assets/t.png'
 const SkillsPage = () => {
   useEffect(() => {
@@ -81,6 +89,14 @@ const SkillsPage = () => {
             <span>Netlify Serverless</span>
             <img src={canva} alt='' />
             <span>Canva</span>
+            <img src={nodejs} alt='' />
+            <span>Node js</span>
+            <img src={express} alt='' />
+            <span>Express js</span>
+            <img src={mongodb} alt='' />
+            <span>Mongo DB</span>
+            <img src={reduxRtk} alt='' />
+            <span>RTK</span>
           </div>
         </article>
       </div>
