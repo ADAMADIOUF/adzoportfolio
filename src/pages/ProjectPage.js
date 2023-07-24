@@ -2,7 +2,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import React, { useEffect } from 'react'
 import zana from "../assets/zana.png"
-import planete from '../assets/planete.png'
+import babel from '../assets/babel.png'
 import rems from '../assets/rems.jpg.png'
 import worldbusiness from '../assets/worldbusiness.png'
 import awagueye from '../assets/awagueye.png'
@@ -29,34 +29,61 @@ const ProjectPage = () => {
       </div>
       <div className='project-container'>
         <article data-aos='fade-up'>
-          <img src={planete} alt='' />
-          <Link onClick={() => handleClick(`https://planete2.netlify.app/`)}>
-            <span className='project-link'>planete2.netlify.app</span>
+          <img src={babel} alt='' />
+          <Link onClick={() => handleClick(`https://babelshop.onrender.com/`)}>
+            <span className='project-link'>babelshop.onrender.com</span>
           </Link>
         </article>
         <article data-aos='fade-right'>
-          <h3>gym/fitness exercise</h3>
+          <h3>e-commerce website</h3>
           <p>
-            Designed to empower fitness enthusiasts, our gym/fitness exercise
-            website built with React.js, CSS, and utilizing the Context API
-            offers a comprehensive platform for individuals seeking to achieve
-            their fitness goals. With a sleek and modern design, our website
-            provides a user-friendly interface, ensuring seamless navigation and
-            effortless access to a wide range of exercise resources. Discover a
-            wealth of fitness exercises, tailored workout routines, and expert
-            guidance to support your fitness journey. Leveraging the power of
-            APIs through Rapid API integration, our website offers real-time
-            access to exercise data, allowing users to explore a vast library of
-            exercises, target specific muscle groups, and access detailed
-            equipment requirements. The intuitive layout of our website enables
-            users to effortlessly search for exercises, filter by difficulty
-            level or equipment, and explore detailed instructions and visual
-            demonstrations for each exercise. The Context API provides a
-            seamless data management solution, ensuring efficient and reliable
-            access to exercise information across the website.
+            Welcome to our state-of-the-art e-commerce website! We have created
+            a cutting-edge platform that allows you to explore a vast range of
+            products and enjoy a seamless shopping experience. Our website is
+            built using the latest technologies, including the MERN stack
+            (MongoDB, Express.js, React.js, and Node.js), ensuring high
+            performance, security, and user satisfaction. Discover a wide
+            selection of products across various categories, including clothing,
+            mugs, air conditioners, tables, and chairs. Whether you're looking
+            for trendy apparel, unique mugs, cooling solutions, or stylish
+            furniture, we have you covered. Browse through our extensive
+            clothing collection and find the latest fashion trends for men,
+            women, and children. From casual wear to formal attire, our diverse
+            range of clothing options caters to different styles, sizes, and
+            occasions. Enjoy a seamless shopping experience as you explore
+            detailed product descriptions, view high-quality images, and select
+            the perfect clothing pieces for your wardrobe. Enhance your beverage
+            experience with our exquisite collection of mugs. Choose from a
+            variety of designs, colors, and materials to find the perfect mug
+            that matches your personality and preferences. Whether you're a
+            coffee lover, tea enthusiast, or hot chocolate connoisseur, our mugs
+            are designed to elevate your drinking experience. Stay cool and
+            comfortable with our top-of-the-line air conditioners. We offer a
+            range of AC units that deliver optimal cooling performance for
+            different room sizes and environments. Beat the heat and create a
+            pleasant atmosphere in your home or office with our reliable air
+            conditioning solutions. Complete your living space with our stylish
+            and functional tables and chairs. Whether you need a dining table,
+            study desk, or office chair, our furniture collection offers a wide
+            array of options to suit your needs. Explore different designs,
+            materials, and sizes to find the perfect pieces that match your
+            style and enhance your interior decor. Our e-commerce website
+            ensures a secure and hassle-free shopping experience. Enjoy features
+            such as a user-friendly interface, intuitive search functionality,
+            personalized recommendations, and a streamlined checkout process. We
+            prioritize the security of your personal information and offer
+            multiple secure payment options to ensure a smooth transaction.
+            Customer satisfaction is our top priority, and we strive to provide
+            excellent service at every step. Our dedicated support team is ready
+            to assist you with any queries or concerns you may have, ensuring
+            that your shopping experience exceeds your expectations. Start
+            exploring our e-commerce website now and unlock a world of exciting
+            products. Shop with confidence, knowing that you're accessing a
+            reliable and feature-rich platform designed to make your online
+            shopping experience enjoyable and convenient.
           </p>
-          <p>REACT JS /API via RApid api/ CSS/CONTEXT API</p>
-          <Link to='https://github.com/ADAMADIOUF/gym2'>
+          <p>MERN STACK using REACT-BOOTSTRAP FOR my styling</p>
+          <Link to='https://github.com/ADAMADIOUF/babelshopfinal'>
             <span>
               <BsGithub />
             </span>
