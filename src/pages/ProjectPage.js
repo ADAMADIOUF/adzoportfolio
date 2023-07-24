@@ -91,7 +91,7 @@ const ProjectPage = () => {
 
           <button
             className='btn btn-project'
-            onClick={() => handleClick(`https://planete2.netlify.app/`)}
+            onClick={() => handleClick(`planete2.netlify.app/`)}
           >
             demo
           </button>
@@ -100,7 +100,7 @@ const ProjectPage = () => {
           <img src={rems} alt='' />
           <Link onClick={() => handleClick(`https://annaparfum.onrender.com/`)}>
             <span className='project-link'>
-              https://annaparfum.onrender.com/
+             annaparfum.onrender.com/
             </span>
           </Link>
         </article>
