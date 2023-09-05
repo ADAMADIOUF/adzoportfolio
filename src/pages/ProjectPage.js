@@ -6,7 +6,7 @@ import babel from '../assets/babel.png'
 import rems from '../assets/rems.jpg.png'
 import worldbusiness from '../assets/worldbusiness.png'
 import awagueye from '../assets/awagueye.png'
-
+import landing from "../assets/landing.png"
 import{BsGithub} from "react-icons/bs"
 import { Link } from 'react-router-dom'
 const ProjectPage = () => {
@@ -28,6 +28,63 @@ const ProjectPage = () => {
         <div className='underline' data-aos='fade-right'></div>
       </div>
       <div className='project-container'>
+        <article data-aos='fade-up'>
+          <img src={landing} alt='Hotel' />
+          <Link
+            onClick={() =>
+              handleClick(`https://landingpagehtmlcssjs.netlify.app/`)
+            }
+          >
+            <span className='project-link'>
+              https://landingpagehtmlcssjs.netlify.app/
+            </span>
+          </Link>
+        </article>
+        <article data-aos='fade-right'>
+          <h3>Welcome to Our Hotel</h3>
+          <p>
+            Discover a luxurious retreat at our hotel. Nestled in a picturesque
+            location, we offer you a world-class experience like no other.
+            Whether you're traveling for business or leisure, our hotel is your
+            home away from home. With stunning views, top-notch amenities, and
+            exceptional service, your stay with us will be truly memorable.
+          </p>
+          <p>
+            Our hotel features:
+            <ul>
+              <li>Spacious and comfortable rooms and suites</li>
+              <li>On-site gourmet dining with a variety of cuisines</li>
+              <li>Relaxing spa and wellness center</li>
+              <li>Modern fitness facilities</li>
+              <li>Conference and event spaces for all your needs</li>
+            </ul>
+          </p>
+          <p>
+            Whether you're looking for a romantic getaway, a family vacation, or
+            a business conference, our hotel can cater to your requirements. Our
+            friendly staff is dedicated to making your stay exceptional.
+          </p>
+          <p>
+            Explore our website to see more details about our rooms, facilities,
+            and special offers. We look forward to welcoming you to our
+            hotel.HTML,CSS,JAVASCRIPT
+          </p>
+          <Link to='https://github.com/ADAMADIOUF/landingpage'>
+            <span>
+              <BsGithub />
+            </span>
+          </Link>
+
+          <button
+            className='btn btn-project'
+            onClick={() =>
+              handleClick(`https://landingpagehtmlcssjs.netlify.app/`)
+            }
+          >
+            Demo
+          </button>
+        </article>
+
         <article data-aos='fade-up'>
           <img src={babel} alt='' />
           <Link onClick={() => handleClick(`https://babelshop.onrender.com/`)}>
@@ -99,9 +156,7 @@ const ProjectPage = () => {
         <article data-aos='fade-up'>
           <img src={rems} alt='' />
           <Link onClick={() => handleClick(`https://annaparfum.onrender.com/`)}>
-            <span className='project-link'>
-             annaparfum.onrender.com/
-            </span>
+            <span className='project-link'>annaparfum.onrender.com/</span>
           </Link>
         </article>
         <article data-aos='fade-right'>
