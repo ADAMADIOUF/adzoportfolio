@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import data from './../dataNav'
-import logo from '../assets/logo.png'
+import logo from '../assets/f1logo.png'
 
 import { Link } from 'react-scroll'
 

@@ -6,10 +6,10 @@
   --clr-primary-2: #343a40;
   --clr-primary-3: #545454;
   --clr-primary-4: #dee2e6;
-  --clr-primary-8: #ffdb15;
-  --clr-primary-9:  #020301;
-  --clr-primary-11:#f5f3e7 ;
-    --clr-primary-12: #3d2616;
+  --clr-primary-8: #9EA788;
+  --clr-primary-9:  #CDBE8C;
+  --clr-primary-10:#D9D9D9 ;
+    --clr-primary-11: #3d2616;
   
   --clr-white: #fff;
   
@@ -281,7 +281,7 @@ justify-self: end;
 
 /* hero */
 .hero{
-  background: url("./assets/hero1.png");
+  background: url("./assets/heronew1.png");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -290,16 +290,15 @@ justify-self: end;
 }
 
 .hero-content p{
-font-size: 1.5rem;
-color: var(--clr-white);
+font-size: 1rem;
+color: var(--clr-black);
+
   }
-  .hero-content p span{
-    
-    color: var(--clr-primary-8);
-  }
+  
+  
   .hero-content {
 position: absolute;
-top: 8rem;
+top: 3rem;
 left: 0rem;
 }
 @media (min-width:768px) {
@@ -309,8 +308,8 @@ left: 0rem;
   }
   .hero-content {
 position: absolute;
-top: 20rem;
-left: 10rem;
+top: 10rem;
+left: 5rem;
 }
 .hero-content p{
   font-size: 2rem;
@@ -318,7 +317,7 @@ left: 10rem;
 }
 
 .home-content h3{
-  color: var(--clr-primary-4);
+  color: var(--clr-black);
   font-size: 3rem;
   font-weight: 800;
   
@@ -386,11 +385,11 @@ left: 10rem;
 }
 .about-creative{
   position: absolute;
-  top: 1rem;
+  top: 6rem;
   left: 0.5rem;
 }
 .about-creative h6{
-color: var(--clr-white);
+color: var(--clr-black);
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: var(--spacing);
@@ -448,45 +447,30 @@ color: var(--clr-white);
     gap: 5rem;
   }
 }
-/* projects */
+/* Project */
 .projects{
   margin-top: 5rem;
 }
-
-.project-container {
-  margin-top: 5rem;
- 
-}
-.project-container article{
-  margin: 1rem;
-}
-.project-container img{
+.projects img{
   width: 100%;
- object-fit:cover;
 }
-.project-link{
-  font-size: 1.5rem;
+.projects p{
+  font-size: 1rem;
+}
+.projects a{
   color: var(--clr-primary-8);
 }
-
-.project-container p{
-  margin-top: 1rem;
+.projects span{
   font-size: 1rem;
-  max-width: 40rem;
+  color: var(--clr-primary-8);
 }
-.project-container a{
-  font-size: 3rem;
-   color: var(--clr-black);
-}
-
-@media (min-width:992px) {
+@media (min-width:768px) {
   .project-container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 5rem;
   }
 }
-
 /* contact */
 .contact{
   background: url("./assets/contact1.png");

@@ -1,7 +1,7 @@
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import React, { useEffect } from 'react'
-import about from '../assets/about3.png'
+import about from '../assets/aboutnew.png'
 const AboutPage = () => {
   useEffect(() => {
     AOS.init({

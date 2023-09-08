@@ -1,12 +1,12 @@
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import React, { useEffect } from 'react'
-import zana from "../assets/zana.png"
-import babel from '../assets/babel.png'
-import rems from '../assets/rems.jpg.png'
-import worldbusiness from '../assets/worldbusiness.png'
-import awagueye from '../assets/awagueye.png'
-import landing from "../assets/landing.png"
+import zana from "../assets/f3.png"
+import babel from '../assets/f2.png'
+
+import worldbusiness from '../assets/f4.png'
+import awagueye from '../assets/f5.png'
+import landing from "../assets/f1.png"
 import{BsGithub} from "react-icons/bs"
 import { Link } from 'react-router-dom'
 const ProjectPage = () => {
@@ -27,7 +27,7 @@ const ProjectPage = () => {
         <h3 data-aos='fade-up'>projects</h3>
         <div className='underline' data-aos='fade-right'></div>
       </div>
-      <div className='project-container'>
+      <div className='project-container section-center'>
         <article data-aos='fade-up'>
           <img src={landing} alt='Hotel' />
           <Link
@@ -153,48 +153,7 @@ const ProjectPage = () => {
             demo
           </button>
         </article>
-        <article data-aos='fade-up'>
-          <img src={rems} alt='' />
-          <Link onClick={() => handleClick(`https://annaparfum.onrender.com/`)}>
-            <span className='project-link'>annaparfum.onrender.com/</span>
-          </Link>
-        </article>
-        <article data-aos='fade-right'>
-          <h3>Perfume Website</h3>
-          <p>
-            A perfume website is an online platform that allows users to buy
-            perfume for personal use. At our perfume website, we strive to bring
-            you a wide selection of exquisite fragrances that cater to different
-            tastes and preferences. We understand that choosing the perfect
-            scent is a personal and intimate experience, and our platform is
-            designed to provide you with a seamless and convenient shopping
-            journey. Browse through our carefully curated collection of
-            perfumes, ranging from timeless classics to unique and niche
-            creations. Our website offers detailed product descriptions,
-            including notes, accords, and customer reviews, empowering you to
-            make informed decisions. With our secure online platform, you can
-            confidently shop for your favorite fragrances, whether you're
-            seeking a signature scent or exploring new olfactory sensations.
-            Immerse yourself in the world of perfumes and discover the art of
-            scent as you create a personal collection that reflects your unique
-            style and personality.
-          </p>
-          <p>
-            REACT JS /REACT-BOOTSTRAP/ CSS/CONTEXT API/MONGO DB/EXPRESS/NODE JS
-          </p>
-          <Link to='https://github.com/ADAMADIOUF/anaparfum'>
-            <span>
-              <BsGithub />
-            </span>
-          </Link>
-
-          <button
-            className='btn btn-project'
-            onClick={() => handleClick(`https://annaparfum.onrender.com/`)}
-          >
-            demo
-          </button>
-        </article>
+        
         <article data-aos='fade-up'>
           <img src={zana} alt='' />
           <Link onClick={() => handleClick(`http://zanaparfumerie.com`)}>

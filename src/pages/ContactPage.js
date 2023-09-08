@@ -3,7 +3,7 @@ import 'aos/dist/aos.css'
 import React, { useEffect, useState } from 'react'
 import { AiFillGithub, AiFillLinkedin, AiFillFacebook } from 'react-icons/ai'
 import { BsBookHalf } from 'react-icons/bs'
-import c from "../assets/contact5.png"
+import c from "../assets/fcontact.png"
 import emailjs from 'emailjs-com'
 import { useLocation } from 'react-router-dom'
 const ContactPage = () => {
